@@ -10,16 +10,16 @@ function Description() {
   )
 }
 
-function Calculator(){
-  return (
-  <div>
-      <h1>text</h1>
-  </div>
-  )
+// function Calculator(){
+//   return (
+//   <div>
+//       <h1>text</h1>
+//   </div>
+//   )
 
-}
+// }
 
-// function Parametrs(){
+// function Parameters(){
 //   return(
 //     <div>
 //     <hight/>
@@ -27,4 +27,4 @@ function Calculator(){
 //   )
 
 // }
-render(<Calculator/>,<Description/>, document.getElementById('root'))
+render(<Description/>, document.getElementById('root'))
