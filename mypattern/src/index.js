@@ -1,17 +1,30 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from 'react'
+import{render} from 'react-dom'
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+function Description() {
+  return (
+    <div>
+      <h2>This is my pattern app</h2>
+      <section>body</section>
+    </div>
+  )
+}
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+function Calculator(){
+  return (
+  <div>
+      <h1>text</h1>
+  </div>
+  )
+
+}
+
+// function Parametrs(){
+//   return(
+//     <div>
+//     <hight/>
+//     </div>
+//   )
+
+// }
+render(<Calculator/>,<Description/>, document.getElementById('root'))
